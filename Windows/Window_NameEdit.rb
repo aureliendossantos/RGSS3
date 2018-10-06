@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 #==============================================================================
 # ** Window_NameEdit
 #------------------------------------------------------------------------------
@@ -66,7 +65,7 @@ class Window_NameEdit < Window_Base
   # * Get Character Width
   #--------------------------------------------------------------------------
   def char_width
-    text_size($game_system.japanese? ? "あ" : "A").width 
+    text_size($game_system.japanese? ? "あ" : "A").width
   end
   #--------------------------------------------------------------------------
   # * Get Coordinates of Left Side for Drawing Name

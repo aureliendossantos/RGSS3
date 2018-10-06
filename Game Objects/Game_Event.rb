@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 #==============================================================================
 # ** Game_Event
 #------------------------------------------------------------------------------
@@ -45,7 +44,7 @@ class Game_Event < Game_Character
     @page = nil                           # Event page
   end
   #--------------------------------------------------------------------------
-  # * Detect Collision with Character 
+  # * Detect Collision with Character
   #--------------------------------------------------------------------------
   def collide_with_characters?(x, y)
     super || collide_with_player_characters?(x, y)

@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 #==============================================================================
 # ** Game_Interpreter
 #------------------------------------------------------------------------------
@@ -84,7 +83,7 @@ class Game_Interpreter
     @map_id == $game_map.map_id
   end
   #--------------------------------------------------------------------------
-  # * Detect/Set Up Call-Reserved Common Events 
+  # * Detect/Set Up Call-Reserved Common Events
   #--------------------------------------------------------------------------
   def setup_reserved_common_event
     if $game_temp.common_event_reserved?
