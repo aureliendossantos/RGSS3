@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 #==============================================================================
 # ** Game_Player
 #------------------------------------------------------------------------------
@@ -335,7 +334,7 @@ class Game_Player < Game_Character
     end
   end
   #--------------------------------------------------------------------------
-  # * Update Boarding onto Vehicle 
+  # * Update Boarding onto Vehicle
   #--------------------------------------------------------------------------
   def update_vehicle_get_on
     if !@followers.gathering? && !moving?
@@ -348,7 +347,7 @@ class Game_Player < Game_Character
     end
   end
   #--------------------------------------------------------------------------
-  # * Update Disembarking from Vehicle 
+  # * Update Disembarking from Vehicle
   #--------------------------------------------------------------------------
   def update_vehicle_get_off
     if !@followers.gathering? && vehicle.altitude == 0

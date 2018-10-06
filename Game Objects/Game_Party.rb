@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 #==============================================================================
 # ** Game_Party
 #------------------------------------------------------------------------------
@@ -80,19 +79,19 @@ class Game_Party < Game_Unit
     battle_members[0]
   end
   #--------------------------------------------------------------------------
-  # * Get Item Object Array 
+  # * Get Item Object Array
   #--------------------------------------------------------------------------
   def items
     @items.keys.sort.collect {|id| $data_items[id] }
   end
   #--------------------------------------------------------------------------
-  # * Get Weapon Object Array 
+  # * Get Weapon Object Array
   #--------------------------------------------------------------------------
   def weapons
     @weapons.keys.sort.collect {|id| $data_weapons[id] }
   end
   #--------------------------------------------------------------------------
-  # * Get Armor Object Array 
+  # * Get Armor Object Array
   #--------------------------------------------------------------------------
   def armors
     @armors.keys.sort.collect {|id| $data_armors[id] }

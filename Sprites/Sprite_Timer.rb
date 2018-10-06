@@ -1,8 +1,7 @@
-# -*- coding: utf-8 -*-
 #==============================================================================
 # ** Sprite_Timer
 #------------------------------------------------------------------------------
-#  This sprite is for timer displays. It monitors $game_timer and automatically 
+#  This sprite is for timer displays. It monitors $game_timer and automatically
 # changes sprite states.
 #==============================================================================
 

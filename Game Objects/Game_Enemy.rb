@@ -1,8 +1,7 @@
-# -*- coding: utf-8 -*-
 #==============================================================================
 # ** Game_Enemy
 #------------------------------------------------------------------------------
-#  This class handles enemies. It used within the Game_Troop class 
+#  This class handles enemies. It used within the Game_Troop class
 # ($game_troop).
 #==============================================================================
 

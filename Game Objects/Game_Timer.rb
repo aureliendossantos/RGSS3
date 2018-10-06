@@ -1,8 +1,7 @@
-# -*- coding: utf-8 -*-
 #==============================================================================
 # ** Game_Timer
 #------------------------------------------------------------------------------
-#  This class handles timers. Instances of this class are referenced by 
+#  This class handles timers. Instances of this class are referenced by
 # $game_timer.
 #==============================================================================
 

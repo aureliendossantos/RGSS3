@@ -1,8 +1,7 @@
-# -*- coding: utf-8 -*-
 #==============================================================================
 # ** Game_System
 #------------------------------------------------------------------------------
-#  This class handles system data. It saves the disable state of saving and 
+#  This class handles system data. It saves the disable state of saving and
 # menus. Instances of this class are referenced by $game_system.
 #==============================================================================
 
